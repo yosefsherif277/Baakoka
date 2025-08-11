@@ -23,12 +23,7 @@ const StoryModal = ({ setShowModal }: { setShowModal: (show: boolean) => void })
   }
 
   const handleCreateStory = async () => {
-    try {
-      // Logic to create story
-      return Promise.resolve()
-    } catch (error: any) {
-      throw new Error(error.message)
-    }
+    
   }
 
   return (
