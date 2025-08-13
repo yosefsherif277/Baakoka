@@ -3,7 +3,7 @@ import dotenv from "dotenv";
 import cors from "cors";
 import { inngest, functions } from "./inngest/index.js";
 import { serve } from "inngest/express";
-import connectDB from "./config/db.js";
+import { connectDB } from "./config/db.js";
 
 dotenv.config();
 await connectDB();
